@@ -1,0 +1,25 @@
+{
+  "loan_approval": [
+    {
+      "rule_id": "R1",
+      "field": "credit_score",
+      "operator": "<",
+      "value": 600,
+      "action": "reject"
+    },
+    {
+      "rule_id": "R2",
+      "field": "credit_score",
+      "operator": ">=",
+      "value": 700,
+      "action": "approve"
+    },
+    {
+      "rule_id": "R3",
+      "field": "income",
+      "operator": "<",
+      "value": 30000,
+      "action": "manual_review"
+    }
+  ]
+}

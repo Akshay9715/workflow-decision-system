@@ -1,0 +1,13 @@
+{
+  "loan_approval": {
+    "steps": ["validate", "rule_check", "decision"]
+  },
+
+  "employee_onboarding": {
+    "steps": ["validate", "rule_check", "decision"]
+  },
+
+  "vendor_approval": {
+    "steps": ["validate", "rule_check", "decision"]
+  }
+}
