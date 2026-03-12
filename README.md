@@ -47,9 +47,7 @@ New workflows can be added by updating `config/workflows.json` without modifying
 FastAPI automatically generates interactive documentation.
 
 Example:
-```
-http://127.0.0.1:8000/docs
-```
+![API Docs](docs/api_docs.png)
 
 ## Setup
 
@@ -76,6 +74,7 @@ http://127.0.0.1:8000/docs
 ---
 
 ## Example Request
+
 ```
 POST /process
 {
